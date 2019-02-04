@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
         
     addTodoBtn.addEventListener('click', function (event) {
-        const inputValue = addTodoInput.value;
+        var inputValue = addTodoInput.value;
         alert(inputValue);
     });
  
